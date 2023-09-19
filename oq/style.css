@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');*
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    background-color: #F3E7DE;
+    width: 100%;
+    height: 100vh;
+  }
+  
+header {
+    background-color: #489F78;
+    height: 80px;
+}
+
+header img:hover {
+    filter: brightness(70%);
+    transform: scale(0.9);
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.esquerda {
+    width: 235px;
+}
+
+.esquerda img {
+    height: 100vh;
+    position: fixed;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-left: 60%;
+}
+
+h1 {
+    color: #489F78;
+    font-size: 32px;
+    margin-left: 80px;
+}
+
+p{
+    color: #557C70;
+}
+
+.um{
+    position: absolute;
+    top: 20%;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    right: 10%;
+    width: 600px;
+    position: absolute;
+}
+
+.dois,
+.tres,
+.quatro {
+    background-color: #6e8f857b;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-bottom: .5rem;
+}
+
+.texto p {
+    max-width: 625px; 
+}
+
+.direita{   
+    position: absolute;
+    top: 5px;
+    right: 10%;
+    text-align: center;
+}
+
+.direita img{
+    width: 75px;
+    text-align: center;
+    height: 75px;
+}
+
+.greenBranco {
+    margin-left: 1rem;
+    position: absolute;
+    top: 15px;
+}
+
+.planta {
+    position: absolute;
+    left: 235px;
+    height: 80px;
+}
+
+@media (max-width:1440px){
+    main {
+        display: flex;
+        justify-content: center;
+        margin-left: 50%;
+    }
+
+    .esquerda {
+        width: 220px;
+    }
+}
+
+.pt{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+
+a{
+    color: #F3E7DE;
+}
+
+ button{
+    background:#439a6c ;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+}

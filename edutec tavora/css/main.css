@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+
+
+.divcuriosidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+  
+.botaocuriosidade {
+    height: 91px;
+    width: 298px;
+    border-radius: 20px;
+    background-color: #489F78;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+  
+.nuvem {
+    
+    margin-left: 10px;
+}
+
+
+.texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.bloco {
+    background-color: #6e8f857c;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 36px;
+    width: 541px;
+    height: 390px;
+}
+  
+.CO {
+    display: block;
+    margin: 0 auto;
+    width: 112px;
+    height: 113.1;
+}
+
+.textoverde{
+    color: #2B681F;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.textobloco{
+
+    height: 100%;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.div_continuar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 80%;
+    margin-bottom: 8%
+  }
+
+.continuar{
+    height: 50px;
+    width: 190px;
+    border-radius: 20px;
+    background-color: #489F78;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+    
+}
+
+
+.div_videos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+  
+
+.botaovideos{
+    height: 91px;
+    width: 298px;
+    border-radius: 20px;
+    background-color: #489F78;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+
+.camera{
+    margin-left: 10px;
+}
+
+.cartao_playlist{
+    margin-top: 50px;
+    width: 400px;
+    height: 430px;
+    background-color: #489F78;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+
+}
+
+.cartao_playlist  img {
+    height: 350px;
+    width: 350px;
+    
+}
+
+.cartao_playlist p {
+    margin-bottom: 35%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', sans-serif;
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.hr{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15%;
+    flex-direction: column;
+}
+
+.hr p {
+    margin-top: 15px;
+    margin-right: 35px;
+    text-align: center ;
+    color: #489F78;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+}
+
+.voltar_continuar{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}

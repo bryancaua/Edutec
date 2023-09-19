@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  body {
+    background-color: #F3E7DE;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #489F78;
+    height: 80px;
+}
+header img:hover {
+    filter: brightness(70%);
+    transform: scale(0.9);
+}
+
+a{
+    text-decoration: none ;
+  }
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.greenBranco {
+    margin-left: 1rem;
+    position: absolute;
+    top: 15px;
+}
+
+.planta {
+    position: absolute;
+    left: 235px;
+    height: 80px;
+}
+
+.direita{   
+    position: absolute;
+    top: 5px;
+    right: 10%;
+    text-align: center;
+}
+
+.direita img{
+    width: 75px;
+    text-align: center;
+    height: 75px;
+}
+
+.esquerda {
+    position: fixed;
+    left: 0;
+    top: 80px;
+    height: 100vh;
+}
+
+.esquerda img {
+    height: 100%;
+}
+
+.meio {
+    position: absolute;
+    left: 68%;
+    transform: translateX(-50%);
+    top: 10%;
+}
+
+.meio img {
+    width: 800px;
+    height: auto;
+}
+
+.texto {
+    position: absolute;
+    top: 65%;
+    left: 72%;
+    transform: translate(-50%, -50%);
+    background-color: #6e8f857b;
+    padding: 25px;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto p {
+    text-align: center;
+    font-size: 18px;
+    color: #557C70;
+    width: 500px;
+    height: auto;
+}
+
+.pt{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+a{
+    color: #F3E7DE;
+}
+
+ button{
+    background:#439a6c ;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz</title>
+</head>
+<body>
+
+<div class="iniciar">
+    <!-- Início do Quiz -->
+    <h2 id='titulo'> Quiz GreenStudy</h2>
+    <p class="regras">
+        Vamos Começar? Clique no Botão abaixo! 
+    </p>
+    <button id="iniciarBtn" onclick="iniciarQuiz()">
+        <span></span>
+        <strong>Começar</strong>
+    </button>
+
+    <button id="sairBtn">
+        <a href="../index.html">
+            <strong>Sair</strong>
+        </a>
+        
+    </button>
+</div>
+
+    <main class="tela-principal">
+
+        <div class="fechar">
+            <a href="../index.html"><img src="../img/fechar.svg" alt="Close"></a>
+        </div>
+
+    
+
+        <section class='conteudos'>
+        
+            <article class='questoes'>
+                
+
+                <header class='questao'>
+                    <h1 id='pergunta'></h1>
+                    <img src="../img/imagem_2023-09-17_204118696-removebg-preview.png" alt="">
+                </header>
+                                
+                <div class='corpo'>
+                    <ol type='A' id='alternativas'>
+                        <li id='a' value='1A' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='b' value='1B' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                        <li id='c' value='1C' class='respostas' onClick='verificarSeAcertou(this, this)'></li>
+                    </ol>
+                </div>
+
+            </article>
+            
+        
+        </section>
+
+    </main>
+
+    <div id="finalizacao" class="centrou">
+        <h2>Quiz Concluído</h2>
+        <p>Você acertou <span id="pontuacao"></span> questões de um total de <span id="totalQuestoes"></span>.</p>
+        <button id="reiniciar" onclick="reiniciarQuiz()">Reiniciar</button>
+        <button>
+            <a href="../index.html">
+                Sair
+            </a>
+        </button>
+
+        <div class="uiverse">
+            <span class="tooltip">1.A 2.A 3.B 4.C 5.A 6.B</span>
+            <span>
+                Gabarito
+            </span>
+        </div>
+    </div>
+
+
+</body>
+</html>
